@@ -66,11 +66,6 @@ body {
     gap: 40px;
 }
 
-.nav-list-item{
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
 .menu-nav {
     font-size: 16px;
     color: #2e2f42;
@@ -80,6 +75,7 @@ body {
     letter-spacing: 0.02em;
     padding: 24px 0;
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first{
@@ -118,15 +114,12 @@ body {
     gap: 40px;
 }
 
-.contact-list-item{
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .contact-link {
     color: #434455;
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link:hover {
@@ -288,7 +281,6 @@ body {
 .social-icon{
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-link{
@@ -299,6 +291,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;   
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-link:hover{
@@ -311,7 +304,6 @@ body {
 
 .social-svg{
     fill: #f4f4fd;
-
 }
 
 .our-portfolio{
@@ -375,8 +367,8 @@ body {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.text-back:hover{
-    transform: translateY(0%);
+.application:hover{
+    .text-back{transform: translateY(0%);}
 }
 
 .third-title{
@@ -459,7 +451,6 @@ body {
 .footer-social-icon{
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-icon-link{
@@ -470,6 +461,7 @@ border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-icon-link:hover{
